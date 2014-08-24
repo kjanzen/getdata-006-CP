@@ -13,7 +13,7 @@ It consists of:
 1. A link to a Github repository with the script for performing the analysis.
 1. A code book that describes the variables, the data, and any transformations or work that have been performed to clean up the data called CodeBook.md.
 
-The script can be run by using RStudio. In order for it to work properly, make sure the working directory is set to the same directory in which the raw input data has been extracted (within the UCI HAR Dataset directory). If you are running the code from a Windows environment, you will need to modify the file paths replacing "/" by "\\". 
+The script can be run by using RStudio. In order for it to work properly, make sure the working directory is set to the same directory in which the raw input data has been extracted (within the UCI HAR Dataset directory). If you are running the code from a Windows environment, you will need to modify the file paths replacing "/" by "\\\\". 
 
 The script also includes a commented line to import the output tidy data frame in order to test it. You will have to remove the # from the last line of code in order to use this feature.
 
