@@ -20,18 +20,18 @@ subj <- read.table("test/subject_test.txt")
 act <- read.table("test/y_test.txt")
 df1 <- cbind(subj, act, df1)
 
-# Adds the Subject and Activity data to the test data set as the two first columns.
+# Adds the Subject and Activity data to the training data set as the two first columns.
 subj <- read.table("train/subject_train.txt")
 act <- read.table("train/y_train.txt")
 df2 <- cbind(subj, act, df2)
 
 ## STEP 1 OF THE COURSE PROJECT
-# Merges both test and training data sets by row and deletes unused data frames to free memory.
+# Merges both test and training data sets rows and deletes unused data frames to free memory.
 df <- rbind(df1, df2)
 rm(df1,df2, act, subj)
 
 ## STEP 4 OF THE COURSE PROJECT - We skip ahead since we will use this for STEP 2 as well.
-# Reads the features.txt file to provide meaningful names for columns and assigns them.
+# Reads the features.txt file to provide descriptive variable names for columns and assigns them.
 nms <- read.table(file = "features.txt", sep = " ", colClasses = "character")
 names(df) <- c("Subject", "Activity", nms[,2])
 rm(nms)
