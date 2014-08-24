@@ -73,7 +73,7 @@ Our features are based on the original features extracted from the UCI Machine l
 * mean(): Mean value
 * std(): Standard deviation
 
-***SOURCE:** [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+*SOURCE: [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
 **Bellow is a complete list of variables of each feature vector:**
